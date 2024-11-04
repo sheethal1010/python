@@ -3,6 +3,7 @@ import seaborn as sns #Importing for visual
 import plotly.express as px
 import pandas as pd
 import numpy as np
+import streamlit as st
 
 # load datasheet
 tips = sns.load_dataset('tips')
