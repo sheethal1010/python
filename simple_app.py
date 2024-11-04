@@ -15,7 +15,7 @@ fig1 = px.bar(tips,x="day",y="tip")
 fig2 = px.scatter(tips,x="total_bill",y="tip")
 
 # streamlit web app layout
-st.title("Data Visualizatyion with Plotly")
+st.title("Data Visualization with Plotly")
 
 #Section 1: Bar plot
 
